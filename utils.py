@@ -50,6 +50,3 @@ def print_header(title:str, title_size:int=26):
     print("=" * title_size)
     print(title.center(title_size))
     print("=" * title_size)
-
-def write_api_key(key:str):
-    
