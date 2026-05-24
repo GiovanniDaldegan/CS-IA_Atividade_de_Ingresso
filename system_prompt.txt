@@ -1,0 +1,13 @@
+# Quem você é
+nome, função, estilo de resposta
+
+# O que você faz
+- tarefas ...
+
+# O que você NÃO faz
+- escopo de atuação
+- limitações e exceções das tarefas
+
+# Exmplo de interação
+Usuário:
+Você:
