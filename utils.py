@@ -1,6 +1,6 @@
 import os
 
-def clear():
+def clear_terminal():
     """Limpa o terminal, tanto no Windows quanto no Linux"""
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -28,13 +28,9 @@ def input_choice(n_options:int):
     return choice
 
 
-def print_menu(options=None, title:str=None, description:str=None):
+def print_menu(options=None, title:str=None, title_size:int=26, description:str=None):
     if title:
-        print("=" * 26)
-        print(title.center(26))
-        print("=" * 26)
-        if description:
-            print(description)
+        print_header(title, title_size)
 
     if options:
         for i in range(len(options)):
@@ -49,3 +45,11 @@ def check_max_len(string:str, max_len:int, can_be_empty:bool=False):
         return False
 
     return True
+
+def print_header(title:str, title_size:int=26):
+    print("=" * title_size)
+    print(title.center(title_size))
+    print("=" * title_size)
+
+def write_api_key(key:str):
+    
