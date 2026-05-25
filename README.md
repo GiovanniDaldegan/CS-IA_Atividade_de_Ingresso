@@ -24,16 +24,16 @@ py -m pip install -r requirements.txt
 
 ## Uso do agente
 
-Para executar o programa execute:
+Para executar o programa execute o comando na raíz do projeto:
 
 Para Unix/macOS
 ```sh
-python ./hello.py
+python ./agent.py
 ```
 
 Para Windows
 ```sh
-py .\hello.py
+py .\agent.py
 ```
 
 Na execução do programa, o agente vai se apresentar e explicar com o que ele pode ajudar. Pergunte questões de Filosofia ou peça referências de um assunto da área e ele vai tentar de explicar e oferecer um plano de leitura adequado para seu nível de familiaridade e compreensão dos conceitos.
