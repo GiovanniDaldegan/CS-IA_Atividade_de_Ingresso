@@ -39,7 +39,8 @@ py .\hello.py
 Na execução do programa, o agente vai se apresentar e explicar com o que ele pode ajudar. Pergunte questões de Filosofia ou peça referências de um assunto da área e ele vai tentar de explicar e oferecer um plano de leitura adequado para seu nível de familiaridade e compreensão dos conceitos.
 
 
->[!note] O arquivo [utils.py](./utils.py) foi reutilizado de um outro projeto meu. O resto foi desenvolvido especificamente para essa atividade.
+>[!note]
+> O arquivo [utils.py](./utils.py) foi reutilizado de um outro projeto meu. O resto foi desenvolvido especificamente para essa atividade.
 > 
 > Nenhum modelo de linguagem foi utilizado na realização da atividade ou produção dos conteúdos presentes, exceto na comunicação com a API para testes do agente.
 
