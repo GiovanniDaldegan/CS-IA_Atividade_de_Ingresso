@@ -70,7 +70,7 @@ if __name__ == "__main__":
             contents=history
         ).text)
     except Exception as e:
-        input(f"Erro! {e}")
+        print(f"Erro! {e}")
 
 
     # execução do chat
