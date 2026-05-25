@@ -50,3 +50,8 @@ def print_header(title:str, title_size:int=26):
     print("=" * title_size)
     print(title.center(title_size))
     print("=" * title_size)
+
+def print_divider(string:str="-", repetitions:int=15):
+    for i in range(repetitions):
+        print(string, end="")
+    print()
